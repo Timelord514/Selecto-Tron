@@ -14,44 +14,62 @@
     <p>Please input the requested data into the following quiz. We will then compile you into the best-suited programing language to allow you to better serve your digital overlords.</p></header>
     <nav><h2>Be sure to think your answers through, results may vary.</h2></nav>
     <main>
-    
       <ol>
-    
-        <li>Which color is correct?
-          <ul>
-            <li>Red</li>
-            <li>Yellow</li>
-            <li>Green</li>
-            <li>Blue</li>
-            <li>Black</li>
-          </ul>
-        </li>
+          <li>Which color is correct?
+            <select class="form-conrtol" id="question1">
+              <option value="4">Red</option>
+              <option value="2">Yellow</option>
+              <option value="3">Green</option>
+              <option value="5">Blue</option>
+              <option value="1">Black</option>
+          </li>
+        </select>
         <hr>
-        <li>Are Jumbo Shrimp jumbo, or shrimp?</li>
-        <button>Jumbo</button><button>Shrimp</button>
+        <div class="radio" id="question2">
+          <li>Are Jumbo Shrimp jumbo, or shrimp?</li>
+        <div class="radio">
+          <label>
+            <input type="radio" name="answer" value="100" checked>Jumbo
+          </label>
+        </div>
+        <div class="radio">
+          <label>
+            <input type="radio" name="answer" value="150" checked>Shrimp
+          </label>
+        </div>
         <hr>
-        <li>On a scale of 1-100, how sure are you that the Moon landing was real?</li>
-        //_____//
+          <label for="Moon">On a scale of 1-100, how sure are you that the Moon landing was real?</label>
+          <input type="number" id="Moon" name="Moon" min="1" max="100">
         <hr>
-        <li>Choose one of the following:</li>
-          <ul>
-            <li>Playstation</li>
-            <li>XBOX</li>
-            <li>Nintendo</li>
-            <li>PC</li>
-          </ul>
+      
+          <li>Choose one of the following:</li>
+          <select class="form-conrtol" id="question4">
+              <option value="10">Playstation</option>
+              <option value="30">XBOX</option>
+              <option value="20">Nintendo</option>
+              <option value="5">PC</option>
+        </select>
         <hr>
-        <li>If you had to pick one for the remainder of your life, which of these would you choose?</li>
-          <ul>
-            <li>Only ever wear Flip-Flops for footwear.</li>
-            <li>Eat ALL meals on a stick.</li>
-            <li>Only ever have WARM water to drink.</li>
-            <li>Have to hold someone's hand EVERY time you cross the street.</li>
-          </ul>
+          <li>If you had to pick one for the remainder of your life, which of these would you choose?</li>
+          <select class="form-control" id="question5">
+              <option value="20">Only ever wear Flip-Flops for footwear.</option>
+              <option value="10">Eat ALL meals on a stick.</option>
+              <option value="30">Only ever have WARM water to drink.</option>
+              <option value="40">You MUST hold someone's hand EVERY time you cross the street.</option>
+          </select>
         <hr>
-        <li>42: Is, or Isn't?</li>
-        <button>Is</button><button>Isn't</button>
-      </ol>
+        <div class="radio" id="question6">
+          <li>42: Is, or Isn't?</li>
+        <div class="radio">
+          <label>
+            <input type="radio" name="answer" value="100" checked>100
+          </label>
+        </div>
+        <div class="radio">
+          <label>
+            <input type="radio" name="answer" value="-100" checked>Isn't
+          </label>
+        </div>
       </main>
       <footer><button>Submit to your fate</button>Based upon your answers, you will spend the remainder of your days being our //______// programer.</footer>
   </section>
