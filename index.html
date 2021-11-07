@@ -1,5 +1,6 @@
 <!DOCTYPE html>
 <html lang="en-US">
+
 <head>
   <link href="css/bootstrap.css" rel="stylesheet" type="text/css">
   <link href="css/styles.css" rel="stylesheet" type="text/css">
@@ -7,72 +8,72 @@
   <script src="js/scripts.js"></script>
   <title>Programing Language Selecto-Tron</title>
 </head>
+
 <body>
   <section id="page">
-    <header><h1>Programing Language Selecto-Tron</h1>
-    <p>Greetings human user. We welcome you to become one with our database.</p>
-    <p>Input the requested data. We will then place you into best-suited programing language learning program to allow you to better serve your digital overlords.</p></header>
-    <nav><h2>Be sure to process your answers throughly, results may vary. Available Courses: Ruby, C#, Rust, Duplo, & Python.</h2></nav>
+    <header>
+      <h1>Programing Language Selecto-Tron</h1>
+      <p>Greetings human user. We welcome you to become one with our database.</p>
+      <p>Input the requested data. We will then place you into best-suited programing language learning program to allow you to better serve your digital overlords.</p>
+    </header>
+    <nav>
+      <h2>Be sure to process your answers throughly, results may vary. Available Courses: Ruby, C#, Rust, Duplo, & Python.</h2>
+    </nav>
     <main>
       <ol>
-          <li>Which color is correct?
-            <select class="form-conrtol" id="question1">
-              <option value="4">Red</option>
-              <option value="2">Yellow</option>
-              <option value="3">Green</option>
-              <option value="5">Blue</option>
-              <option value="1">Black</option>
-          </li>
+        <li>Which color is correct?
+          <select class="form-conrtol" id="question1">
+            <option value="4">Red</option>
+            <option value="2">Yellow</option>
+            <option value="3">Green</option>
+            <option value="5">Blue</option>
+            <option value="1">Black</option>
+        </li>
         </select>
         <hr>
         <div class="radio" id="question2">
           <li>Are Jumbo Shrimp jumbo, or shrimp?</li>
-        <div class="radio">
-          <label>
-            <input type="radio" name="answer" value="100" checked>Jumbo
-          </label>
-        </div>
-        <div class="radio">
-          <label>
-            <input type="radio" name="answer" value="150" checked>Shrimp
-          </label>
-        </div>
-        <hr>
-          <label for="Moon">On a scale of 1-100, how sure are you that the Moon landing was real?</label>
+          <div class="radio">
+            <label>
+              <input type="radio" name="answer" value="100">Jumbo
+            </label>
+          </div>
+          <div class="radio">
+            <label>
+              <input type="radio" name="answer" value="150">Shrimp
+            </label>
+          </div>
+          <hr>
+          <li><label for="Moon">On a scale of 1-100, how sure are you that the Moon landing was real?</label></li>
           <input type="number" id="Moon" name="Moon" min="1" max="100">
-        <hr>
-      
+          <hr>
+
           <li>Choose one of the following:</li>
           <select class="form-conrtol" id="question4">
-              <option value="10">Playstation</option>
-              <option value="30">XBOX</option>
-              <option value="20">Nintendo</option>
-              <option value="5">PC</option>
-        </select>
-        <hr>
+            <option value="10">Playstation</option>
+            <option value="30">XBOX</option>
+            <option value="20">Nintendo</option>
+            <option value="5">PC</option>
+          </select>
+          <hr>
           <li>If you had to pick one for the remainder of your life, which of these would you choose?</li>
           <select class="form-control" id="question5">
-              <option value="20">Only ever wear Flip-Flops for footwear.</option>
-              <option value="10">Eat ALL meals on a stick.</option>
-              <option value="30">Only ever have WARM water to drink.</option>
-              <option value="40">You MUST hold someone's hand EVERY time you cross the street.</option>
+            <option value="20">Only ever wear Flip-Flops for footwear.</option>
+            <option value="10">Eat ALL meals on a stick.</option>
+            <option value="30">Only ever have WARM water to drink.</option>
+            <option value="40">You MUST hold someone's hand EVERY time you cross the street.</option>
           </select>
-        <hr>
-        <div class="radio" id="question6">
+          <hr>
           <li>42: Is, or Isn't?</li>
-        <div class="radio">
-          <label>
-            <input type="radio" name="answer" value="100" checked>100
-          </label>
-        </div>
-        <div class="radio">
-          <label>
-            <input type="radio" name="answer" value="-100" checked>Isn't
-          </label>
-        </div>
-      </main>
-      <footer><button>Submit to your fate</button>Based upon your answers, you will spend the remainder of your days being our //______// programer.</footer>
+          <select class="form-control" id="question6">
+            <option value="100">Is</option>
+            <option value="0">Isn't</option>
+    </main>
+    <footer>
+      <button type="submit" class="btn">Submit to your fate</button>
+      <div id="result"> Based upon your answers, you will spend the remainder of your days being our <span id="programer-lang"></span> programer.</div>
+    </footer>
   </section>
-  
 </body>
+
 </html>
