@@ -21,12 +21,6 @@ Email me at btapfer@gmail.com for any needed support, be it technical, emotional
 ## Author & Acknowledgments
 
 Written by: Bryan Tapfer
-Code developed with: Amy Young <youngamy1223@gmail.com>
-Cesar Lopez <Lopez.cesar.aug@gmail.com>
- Wajma Niazi  <w1niazi@hotmail.com>
- Ebru Rice <ebruerenb@gmail.com>
- Nick Sullivan <nicholassull@gmail.com>
- Fjord Group Oct-Nov 2021
 
 ## License
 

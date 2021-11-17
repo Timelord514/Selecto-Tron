@@ -1,7 +1,8 @@
 $(document).ready(function () {
   $("form#language-selector").submit(function (event) {
     event.preventDefault();
-
+    
+    const name = parseInt($("#name").val());
     const color = parseInt($("#question1").val());
     const shrimp = parseInt($("#question2").val());
     const moon = parseInt($("#question3").val());
